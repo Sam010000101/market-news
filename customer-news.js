@@ -1,12 +1,12 @@
 console.log('Ready');
 
 // fetch data from data.json file and display it in the browser
-fetch('data.json')
+fetch('customer-news.json')
     .then(response => response.json())
     .then(data => {
         data.forEach(item => {
             const div = document.createElement('div');
-            div.className = "col-12 col-lg-4 col-md-6 col-sm-6  p-3 m-3";
+            div.className = "col-12 col-lg-4 col-md-12 col-sm-12  p-3 m-3";
             div.innerHTML = `<h2 class="bg-primary rounded ps-3 p-2">${item.name}</h2>`;
 
             const createButtonRow = (url, text, isImage = false) => {

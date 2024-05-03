@@ -1,0 +1,44 @@
+[
+    {
+        "publicationName": "Professional Builder's Merchant",
+        "publicationShortName": "PBM",
+        "publicationURL": "https://professionalbuildersmerchant.co.uk/",
+        "mediaGroup": "Hamerville Media Group",
+        "mediaGroupURL": "https://hamerville.co.uk/magazines/professional-builders-merchant"
+    },
+    {
+        "publicationName": "Builder's Merchant Journal",
+        "publicationShortName": "BMJ",
+        "publicationURL": "https://buildersmerchantsjournal.net/",
+        "mediaGroup": "Datateam Business Media Limited",
+        "mediaGroupURL": "https://datateam.co.uk/"
+    },
+    {
+        "publicationName": "Builder's Merchant News",
+        "publicationShortName": "BMN",
+        "publicationURL": "https://www.buildersmerchantsnews.co.uk/",
+        "mediaGroup": "Hemming Information Services",
+        "mediaGroupURL": "https://www.hgluk.com/"
+    },
+    {
+        "publicationName": "BMF: OneVoice",
+        "publicationShortName": "BMF",
+        "publicationURL": "https://www.bmf.org.uk/BMF/BMF/Magazine/One-Voice-Magazine.aspx",
+        "mediaGroup": "Builders Merchants Federation",
+        "mediaGroupURL": "https://www.bmf.org.uk/"
+    },
+    {
+        "publicationName": "Professional Builder",
+        "publicationShortName": "PB",
+        "publicationURL": "https://probuildermag.co.uk/",
+        "mediaGroup": "Hamerville Media Group",
+        "mediaGroupURL": "https://hamerville.co.uk/magazines/professional-builders-merchant"
+    },
+    {
+        "publicationName": "RCI: Roofing, Cladding & Insulation",
+        "publicationShortName": "RCI",
+        "publicationURL": "https://rcimag.co.uk/",
+        "mediaGroup": "Mark Allen Group",
+        "mediaGroupURL": "https://www.markallengroup.com/"
+    }
+]

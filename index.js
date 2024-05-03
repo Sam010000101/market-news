@@ -6,25 +6,26 @@ fetch('data.json')
     .then(data => {
         data.forEach(item => {
             const div = document.createElement('div');
-            div.className = "col-12 col-sm-4 border rounded p-3 m-3";
-            div.innerHTML = `<h2>${item.name}</h2><br>`;
+            div.className = "col-12 col-lg-4 col-md-6 col-sm-6 border border-2 rounded p-3 m-3";
+            div.innerHTML = `<h2>${item.name}</h2><hr>`;
             
             const container = document.createElement('div');
             container.className = "px-3 mx-3 mb-3"; 
-            container.innerHTML = `<a href=${item.mainWebsiteURL} class="text-light" target="_blank">Website</a> <br> <a href=${item.ownNewsURL} class="text-light" target="_blank">News</a>`;
+            container.innerHTML = `<a href=${item.mainWebsiteURL} class="btn btn-outline-light m-2 text-light" target="_blank">Website</a> <br> <a href=${item.ownNewsURL} class="btn btn-outline-light m-2 text-light" target="_blank">News</a>`;
 
-            if(item.portalURL && item.portalName) {
-                container.innerHTML += `<br><a href=${item.portalURL} class="text-light" target="_blank">Portal:</a> <a href=${item.portalURL} class="text-light" target="_blank">${item.portalName}</a>`;
-           } else if(item.portalURL && item.portalName === null) {
-                container.innerHTML += `<br><a href=${item.portalURL} class="text-light" target="_blank">Portal</a>`;
+            if(item.portalURL && item.portalName === null) {
+                container.innerHTML += `<br><a href=${item.portalName} class="btn btn-outline-light m-2 text-light" target="_blank">Portal</a>`;
+                
+           } else if(item.portalURL && item.portalName !== null) {
+            container.innerHTML += `<br><a href=${item.portalURL} class="btn btn-outline-light m-2 text-light" target="_blank">${item.portalName}</a>`;
             }
 
             if(item.dealLink) {
-                container.innerHTML += `<br><a href=${item.dealLink} class="text-light" target="_blank">Deal</a>`;
+                container.innerHTML += `<br><a href=${item.dealLink} class="btn btn-outline-light m-2 text-light" target="_blank">Deal</a>`;
             }
 
             if(item.linkedinURLParent) {
-                container.innerHTML += `<br><img src="./images/linkedIn-icon-18x18.png"/> <a href=${item.linkedinURLParent} class="text-light" target="_blank">LinkedIn</a>`;
+                container.innerHTML += `<br><a href=${item.linkedinURLParent} class="btn btn-outline-light m-2 text-light" target="_blank"><img src="./images/linkedIn-icon-18x18.png"/> LinkedIn</a>`;
             }
             
             div.appendChild(container);

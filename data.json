@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Eurocell",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.eurocell.co.uk",
+        "ownNewsURL": "https://www.eurocell.co.uk/blog",
+        "portalName": null,
+        "linkedinURLParent": "https://www.linkedin.com/company/eurocellplc/?originalSubdomain=uk",
+        "portalURL": null
+    },
+    {
+        "name": "Travis Perkins",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.travisperkins.co.uk/",
+        "ownNewsURL": "https://www.travisperkins.co.uk/content/trade-news-and-advice",
+        "linkedinURLParent": "https://www.linkedin.com/company/travis-perkins/?originalSubdomain=uk",
+        "portalName": "TP Looker Portal",
+        "portalURL": null
+    },
+    {
+        "name": "IBC",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.ibcbuyinggroup.com/",
+        "ownNewsURL": "https://www.ibcbuyinggroup.com/ibc/",
+        "linkedinURLParent": "https://uk.linkedin.com/company/ibc-buying-group",
+        "portalName": "IBC Portal",
+        "portalURL": "https://portal.ibcbuyinggroup.com/customer/account/login/"
+    },
+    {
+        "name": "IBMG",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.independentbm.com/",
+        "ownNewsURL": "https://www.independentbm.com/news/",
+        "linkedinURLParent": "https://www.linkedin.com/company/independent-builders-merchant-group",
+        "portalName": null,
+        "portalURL": null
+    },
+    {
+        "name": "NBG",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.nationalbuyinggroup.com/",
+        "ownNewsURL": "https://www.nationalbuyinggroup.com/html/news.html",
+        "linkedinURLParent": "https://uk.linkedin.com/company/nbgllp",
+        "portalName": "NBG Hub",
+        "portalURL": "https://www.nationalbuyinggroup.com/"
+    },
+    {
+        "name": "NMBS",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.nmbs.co.uk/",
+        "ownNewsURL": "https://www.nmbs.co.uk/news/",
+        "linkedinURLParent": "https://uk.linkedin.com/company/national-merchant-buying-society",
+        "portalName": "OnePlace",
+        "portalURL": "https://www.nmbs-oneplace.co.uk/account/login"
+    },
+    {
+        "name": "MKM",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://mkm.com/",
+        "ownNewsURL": "https://mkm.com/blog/mkm-news",
+        "linkedinURLParent": "https://uk.linkedin.com/company/mkm-building-supplies",
+        "portalName": null,
+        "portalURL": null
+    },
+    {
+        "name": "NTG",
+        "customer": true,
+        "dealLink": null,
+        "mainWebsiteURL": "https://www.nationaltimbergroup.com/",
+        "ownNewsURL": "https://www.nationaltimbergroup.com/latest-news/",
+        "linkedinURLParent": "https://uk.linkedin.com/company/national-timber-group",
+        "portalName": null,
+        "portalURL": null
+    }
+]
